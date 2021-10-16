@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UNIVERSITY WEBSITE-REVA UNIVERSITY</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img scr="images/revalogo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSES</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>BENGALURU'S BEST UNIVERSITY</h1>
+                <p>Reva university is one of the best universities found in bengaluru.
+                </p>
+                <a href=""class="hero-btn"> Visit us to know more</a>
+                </div>
+
+
+        </section> 
+
+        <!-------course------->
+        
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p> Some of the courses offered by reva university.</p>
+
+            <div class="row">
+            <div class="course-col">
+                <h3> Intermediate</h3>
+                <p> Students are offered with PCMB and PCMCS in science, HEBA and EBACS in commerce in addition to this we offer the CET, NEAT, JEE coaching.</p>
+            </div>
+            <div class="course-col">
+                <h3> Degree</h3>
+                <p>The degree courses are offered by the university are BTECH(CS,IT,MECH,CIVIL),<br>BCA,BSE ,etc. </p>
+            </div>
+            <div class="course-col">
+                <h3> Post graduation</h3>
+                <p>The post graduation courses are MTECH,MSE,etc.</p>
+            </div>
+        </div>
+            </section>
+            <!------campus------>
+            <section class="campus">
+                <h1> OUR GREEN CAMPUS</h1>
+                <p>The campus is full of varities of tress,plants and shrub species,gardens full of grass mats.The trees which give a beautiful scenary for the campus.
+                    <br> There are almost 1500 trees which are planted across the campus.
+                </p>
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="images/reva.jpg">
+                        <div class="layer">
+                            <h3>LIBRARY AND SVN BLOCK</h3>
+                        </div>
+                    </div>
+                        <div class="campus-col">
+                            <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/15192982984444.png">
+                            <div class="layer">
+                                <h3> CVR BLOCK</h3>
+                            </div>
+                        </div>
+                    
+                    <div class="campus-col">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.yahMBH-nHTWh1BMFL4bZDgHaF7&pid=Api&P=0&w=246&h=198">
+                        <div class="layer">
+                            <h3>ADMIN BLOCK</h3>
+                        </div>
+                        
+                </div>
+            </section>
+
+            <!--------Facilities-------->
+
+            <section class="facilities">
+                <h1>Our Facilities</h1>
+                <p>Apart from the acadamics there are many other facilities provided by our university such as library,food court,field,gym,hostel,pg,club activities,etc.</p>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="images/centrallibrary.jpg">
+                        <h3>Central Library</h3>
+                        <p> Central library contains all the books which are included in the cariculum and other books such as novels in kannad, hindi,english languages. </p>
+                    
+                </div>
+                    <div class="facilities-col">
+                        <img src="images/playground.jpg">
+                        <h3>Play Ground</h3>
+                        <p> Play ground contains cricket field,basketball court,football court,volleyball court,etc. </p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/foodcourt.jpg">
+                        <h3>Food court</h3>
+                <p>Food court contains all different types of stores like chinese,bakary,caferteria,pizzahut,southstyle food ,etc. </p>
+                    </div>
+                </div>
+
+            </section>
+            <!------call to action----->
+            <section class="cta">
+                <h1> ADMISSION</h1>
+                <a href="" class="hero-btn">CONTACT US</a>
+            </section>
+
+            <!------footer----->
+            <section class="footer">
+                <h4> About us</h4>
+                <p>About our university</p>
+                <div class="icons">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+
+                </div>
+                <p>Made <i class="fa fa-heart-o"></i>by reva university</p>
+            </section>
+
+
+
+
+
+        <!--------javascript for toggle menu------->
+        <script>
+
+            var navLinks =document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script> 
+
+    </body>
+</html>
